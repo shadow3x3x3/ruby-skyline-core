@@ -1,3 +1,6 @@
+<a href="https://codeclimate.com/github/shadow3x3x3/ruby-skyline-core"><img src="https://codeclimate.com/github/shadow3x3x3/ruby-skyline-core/badges/gpa.svg" /></a>
+[![Build Status](https://travis-ci.org/shadow3x3x3/ruby-skyline-core.svg?branch=master)](https://travis-ci.org/shadow3x3x3/ruby-skyline-core)
+
 # Ruby Skyline Core
 
 Comparing two datas that are multiple attributes. With Skyline Query definition.
