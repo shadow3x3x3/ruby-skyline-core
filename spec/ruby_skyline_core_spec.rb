@@ -1,8 +1,5 @@
 require_relative 'spec_helper'
 
-# require_relative '../lib/version'
-# require_relative '../lib/ruby-skyline-core'
-
 describe RubySkylineCore do
   it 'has a version number' do
     expect(RubySkylineCore::VERSION).not_to be nil
