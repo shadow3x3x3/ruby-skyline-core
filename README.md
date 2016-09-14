@@ -1,8 +1,6 @@
-# Ruby::Skyline::Core
+# Ruby Skyline Core
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ruby/skyline/core`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Comparing two datas that are multiple attributes. With Skyline Query definition.
 
 ## Installation
 
@@ -22,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Using any Fixnum Array to check dominating with other Array
+
+```ruby
+[1, 3].dominate?[4, 5] # true
+[4, 5].dominate?[1, 2] # true
+```
+
+If no array can dominate each other, it return nil.
+
+```ruby
+[2, 3].dominate?[1, 4] # nil
+```
 
 ## Development
 
