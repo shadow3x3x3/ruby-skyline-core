@@ -27,14 +27,14 @@ Or install it yourself as:
 Using any Fixnum Array to check dominating with other Array
 
 ```ruby
-[1, 3].dominate?[4, 5] # true
-[4, 5].dominate?[1, 2] # false
+[1, 3].dominate?([4, 5]) # true
+[4, 5].dominate?([1, 2]) # false
 ```
 
 If no array can dominate each other, it return nil.
 
 ```ruby
-[2, 3].dominate?[1, 4] # nil
+[2, 3].dominate?([1, 4]) # nil
 ```
 
 ## Development
