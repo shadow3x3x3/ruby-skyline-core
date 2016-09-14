@@ -1,6 +1,13 @@
 require 'spec_helper'
 
+require_relative '../lib/version'
 require_relative '../lib/ruby-skyline-core'
+
+describe RubySkylineCore do
+  it 'has a version number' do
+    expect(Ruby::Skyline::Core::VERSION).not_to be nil
+  end
+end
 
 describe Array do
   describe '#dominate?' do

@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ruby/skyline/core/version'
+require 'version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ruby-skyline-core"
-  spec.version       = Ruby::Skyline::Core::VERSION
+  spec.version       = RubySkylineCore::VERSION
   spec.authors       = ["shadow3x3x3"]
   spec.email         = ["shadow3x3x3@gmail.com"]
 
