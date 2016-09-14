@@ -1,7 +1,7 @@
-require 'spec_helper'
+require_relative 'spec_helper'
 
-require_relative '../lib/version'
-require_relative '../lib/ruby-skyline-core'
+# require_relative '../lib/version'
+# require_relative '../lib/ruby-skyline-core'
 
 describe RubySkylineCore do
   it 'has a version number' do

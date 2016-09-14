@@ -1,2 +1,3 @@
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'ruby/skyline/core'
+$LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
+require 'ruby-skyline-core'
+require 'version'
