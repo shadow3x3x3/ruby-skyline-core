@@ -2,7 +2,7 @@
 class Array
   # dominate function in skyline for array
   def dominate?(array)
-    pre_check_skyline_domiante(array)
+    pre_check_skyline_dominate(array)
     flag       = 0
     check_flag = size
     each_with_index do |attr, index|
@@ -17,7 +17,7 @@ class Array
 
   # skyline attributes aggregate for array
   def aggregate(array)
-    pre_check_skyline_domiante(array)
+    pre_check_skyline_dominate(array)
     aggregate_array = []
     raise ArgumentError, "Need Array not #{array.class}"    unless array.class == Array
     each_with_index do |attr, index|
@@ -27,7 +27,7 @@ class Array
   end
 
   # Skyline Error Handling
-  def pre_check_skyline_domiante(target_array)
+  def pre_check_skyline_dominate(target_array)
     unless target_array.class == Array
       raise ArgumentError, "excpet (Array) got (#{target_array.class})" 
     end
